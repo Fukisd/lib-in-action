@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>lib-in-action</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>com.morbious</groupId>
+    <artifactId>math-util-ij</artifactId>
+    <version>22.04</version>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
@@ -15,11 +15,23 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
         <dependency>
-            <groupId>com.morbious</groupId>
-            <artifactId>math-util-ij</artifactId>
-            <version>22.04</version>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.8.1.jre11</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.12.0</version>
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
+
 
 </project>
